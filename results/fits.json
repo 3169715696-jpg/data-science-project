@@ -1,0 +1,34 @@
+{
+ "source": "AnAge (Tacutu et al.), via the CISC7204 Tutorial 07 dataset",
+ "raw_records": 4218,
+ "used_records": 530,
+ "dropped_missing_fields": 3688,
+ "fits": {
+  "Mammalia": {
+   "n": 349,
+   "slope": 0.18322945787759956,
+   "intercept": 0.5722748418834337,
+   "r": 0.6628902156435361,
+   "predicted_at_1kg": 13.24229369006244
+  },
+  "Aves": {
+   "n": 167,
+   "slope": 0.20734942766332015,
+   "intercept": 0.79390950886264,
+   "r": 0.7126102814172384,
+   "predicted_at_1kg": 26.059002758437668
+  },
+  "Reptilia": {
+   "n": 14,
+   "slope": 0.23073559629564164,
+   "intercept": 0.8195912559452841,
+   "r": 0.6545811797106813,
+   "predicted_at_1kg": 32.49361607723011
+  }
+ },
+ "at_1kg": {
+  "mammal_yrs": 13.2,
+  "bird_yrs": 26.1,
+  "ratio": 1.97
+ }
+}
